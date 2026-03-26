@@ -62,7 +62,7 @@
     <h1>🔐 Cofre do Capitão</h1>
     <p>Digite a sequência correta para continuar</p>
 
-    <input type="text" id="senha" placeholder="5-7-3" onkeypress="verificarTecla(event)">
+    <input type="text" id="senha" placeholder="Ex: 1-2-3" onkeypress="verificarTecla(event)">
     <br>
     <button onclick="verificarSenha()">Desbloquear</button>
 
