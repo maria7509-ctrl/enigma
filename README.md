@@ -31,10 +31,10 @@ HTML
     function verificarSenha() {
       var senha = document.getElementById("senha").value;
 
-      if (senha === "5-7-3") {
+      if (senha === 5-7-3) {
         document.getElementById("resultado").innerHTML =
-        "🌊 Se chegaram até aqui, provaram ser navegadores dignos.<br><br>" +
-        "Mas o Galo de Ouro só aparece para aqueles que conseguem ler os sinais do mar.";
+        🌊 Se chegaram até aqui, provaram ser navegadores dignos.
+        Mas o Galo de Ouro só aparece para aqueles que conseguem ler os sinais do mar.
       } else {
         document.getElementById("resultado").innerHTML =
         "❌ Sequência incorreta... o mar ainda esconde seus segredos.";
@@ -46,7 +46,7 @@ HTML
 
 <body>
 
-<h1>🔐 Cofre do Capitão</h1>
+<h1>🔐 Cofre do Capitão
 <p>Digite a sequência correta para continuar</p>
 
 <input type="text" id="senha" placeholder="Ex: 1-2-3">
